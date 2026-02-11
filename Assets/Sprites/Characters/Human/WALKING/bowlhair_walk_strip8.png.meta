@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,177 +134,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_0
+      name: base_walk_strip8_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 28
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eedebfac1e1442db0800000000000000
-      internalID: -4817653263350632978
+      spriteID: 85950f9395fc2e7e0800000000000000
+      internalID: -1737598524080498344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_1
+      name: base_walk_strip8_1
       rect:
         serializedVersion: 2
-        x: 137
-        y: 28
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a66825b94b6237b60800000000000000
-      internalID: 7742574741521860202
+      spriteID: 65ff9ee998b89b980800000000000000
+      internalID: -8522627396629037226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_2
+      name: base_walk_strip8_2
       rect:
         serializedVersion: 2
-        x: 233
-        y: 29
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7fed9a1c52b40670800000000000000
-      internalID: 8504118105035632508
+      spriteID: db93aa77cf1432160800000000000000
+      internalID: 6999510798459091389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_3
+      name: base_walk_strip8_3
       rect:
         serializedVersion: 2
-        x: 329
-        y: 29
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 255
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c4e7ec3c20ca28d0800000000000000
-      internalID: -2870270516262345533
+      spriteID: 61d1df50b9ded9ff0800000000000000
+      internalID: -27604772618167018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_4
+      name: base_walk_strip8_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709f65f3b97b22f30800000000000000
+      internalID: 4549400451008100615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_walk_strip8_5
       rect:
         serializedVersion: 2
         x: 425
-        y: 28
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a8392efa77c5c8a0800000000000000
-      internalID: -6285398373861607261
+      spriteID: f80db466002453d00800000000000000
+      internalID: 951739465742405775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_5
+      name: base_walk_strip8_6
       rect:
         serializedVersion: 2
-        x: 521
-        y: 28
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 510
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fe47bb36d1c4f2e0800000000000000
-      internalID: -2092834800951406857
+      spriteID: 4e8b094ea174316d0800000000000000
+      internalID: -3020992744206059292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_6
+      name: base_walk_strip8_7
       rect:
         serializedVersion: 2
-        x: 617
-        y: 29
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 595
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3596ec614f881e730800000000000000
-      internalID: 4026650123781957971
+      spriteID: 67a548776cf9a7d20800000000000000
+      internalID: 3277107353622960758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowlhair_walk_strip8_7
+      name: base_walk_strip8_8
       rect:
         serializedVersion: 2
-        x: 713
-        y: 29
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 680
+        y: 0
+        width: 85
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d6c10f9fe8efe0b0800000000000000
-      internalID: -5697078887737866538
+      spriteID: 897d2b9c62c81b646a881d05f571415e
+      internalID: 2140646527
       vertices: []
       indices: 
       edges: []
@@ -313,7 +335,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 53c0884e6f59e224ca9c82e9259260af
     internalID: 0
     vertices: []
     indices: 
@@ -321,16 +343,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":85.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.05000000074505806},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      bowlhair_walk_strip8_0: -4817653263350632978
-      bowlhair_walk_strip8_1: 7742574741521860202
-      bowlhair_walk_strip8_2: 8504118105035632508
-      bowlhair_walk_strip8_3: -2870270516262345533
-      bowlhair_walk_strip8_4: -6285398373861607261
-      bowlhair_walk_strip8_5: -2092834800951406857
-      bowlhair_walk_strip8_6: 4026650123781957971
-      bowlhair_walk_strip8_7: -5697078887737866538
+      base_walk_strip8_0: -1737598524080498344
+      base_walk_strip8_1: -8522627396629037226
+      base_walk_strip8_2: 6999510798459091389
+      base_walk_strip8_3: -27604772618167018
+      base_walk_strip8_4: 4549400451008100615
+      base_walk_strip8_5: 951739465742405775
+      base_walk_strip8_6: -3020992744206059292
+      base_walk_strip8_7: 3277107353622960758
+      base_walk_strip8_8: 2140646527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
